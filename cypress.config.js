@@ -4,7 +4,7 @@ module.exports = defineConfig({
   viewportWidth: 1500,
   viewportHeight: 900,
   chromeWebSecurity: false,
-  projectId: "hagsay",
+  projectId: "5hrgw9",
   video: true,
   e2e: {
     //para que solo se muestren archivos feature/cucumber
