@@ -11,14 +11,16 @@ describe("Bienvenido al curso de cypress sección 1", () => {
     
     it('Mi primer test => Hola mundo', () => {
         cy.log("Hola mundo!");
-        cy.wait(4000)
+        cy.wait(6000)
+
     })
 
     it('Segundo test -> campo name', () => {
         cy.visit("https://demoqa.com/text-box")
 
         cy.get("#userName").type("Yexibel")
-        cy.wait(4000)
+        cy.wait(6000)
+
     })
 
 
@@ -26,7 +28,8 @@ describe("Bienvenido al curso de cypress sección 1", () => {
         cy.visit("https://demoqa.com/text-box")
 
         cy.get("#userName").type("Yexibel")
-        cy.wait(4000)
+        cy.wait(6000)
+
     })
 
 }) // Cierre del describe
